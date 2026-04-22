@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechConnect</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <h2>TechConnect</h2>
+
+    <nav>
+        <a href="index.html">Home</a><br>
+        <a href="servicos.html">Serviços</a><br>
+        <a href="contato.html">Contato</a><br>
+    </nav>
+   </header>
+
+   <br>
+
+    <h1>Para quem deseja entrar em contato comigo.</h1>
+    <h3>Preencha este formulario:</h3>
+    <form action="">
+
+    <label for="nome">Nome:</label>
+    <input type="text" required> <br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="text" required> <br><br>
+
+    <label for="telefone">Telefone:</label>
+    <input type="number" required> <br><br>
+
+     <label for="servico">Tipo de Serviço:</label>
+        <select id="servico" name="servico" required>
+          <option value="">Selecione um serviço...</option>
+          <option value="web">Desenvolvimento Web</option>
+          <option value="mobile">Aplicativo Mobile</option>
+          <option value="suporte">Suporte de TI</option>
+          <option value="consultoria">Consultoria em TI</option>
+        </select><br><br>
+
+    <label for="assunto">Assunto:</label>
+    <input type="text"> <br><br>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea name="msg" id="mensagem"></textarea> 
+    <br><br>
+
+   <label for="dados">Concordo com os termos de uso:</label> 
+   <input type="checkbox" required> <br><br>
+
+  <button type="submit">Enviar</button> <br><br>
+
+  </form>
+
+  <footer>
+    &copy; 2026 TechConnect. Todos os direitos reservados.
+</footer>
+  
+</body>
+</html>
